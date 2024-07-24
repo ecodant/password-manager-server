@@ -4,6 +4,22 @@
 
 This repository houses the backend logic for a password manager application built with Node.js, TypeScript, MongoDB, and Mongoose. It provides CRUD operations for users, cards, and items.
 
+### Initialization Steps
+
+1. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+2. Set up environment variables-
+   - Create a .env.local file with necessary environment variables
+3. Start server
+
+   ```bash
+   npm start
+   ```
+
 ### Technologies
 
 - **Node.js:** JavaScript runtime
