@@ -12,8 +12,15 @@ This repository houses the backend logic for a password manager application buil
    npm install
    ```
 
-2. Set up environment variables-
-   - Create a .env.local file with necessary environment variables
+2. In the root of the project, create a .env file and add the following properties:
+
+   ```bash
+   MONGO_CONNECTION_STRING="MONGODB STRING CONNECTION PROVIDED BY THE MONGODB"
+   ENCRYPTION_KEY="A RANDOM KEY STRING HASH"
+   SESSION_SECRET="A RANDOM SESSION SCREET STRING"
+   PORT=5000
+   ```
+
 3. Start server
 
    ```bash
